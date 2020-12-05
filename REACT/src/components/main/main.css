@@ -1,0 +1,271 @@
+.main {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    position: relative;
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/60/00/caption.jpg?w=1200&h=600&s=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    background-position: 0;
+    margin: 0 auto;
+}
+
+.main-header > .quote {
+    font-weight: 500;
+    position: absolute;
+    right: 33%;
+    top: 17%;
+    color: white;
+    font-size: x-large;
+    text-shadow: 2px 2px 3px black;
+    text-align: right;
+}
+
+.cards-area-nav {
+    padding: 5px;
+    border: 1px solid rgba(48, 48, 48, 0.103);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cards-area-nav .form-inline > i {
+    margin: 0 10px 0 10px;
+}
+
+.cards-area-nav .form-inline > input {
+    border-radius: 5px;
+    color: teal;
+}
+
+.cards-area-nav .form-inline > .favorites-btn {
+    position: absolute;
+    right: 10px;
+}
+
+.cards-area-nav .form-inline > .graph-btn {
+    position: absolute;
+    right: 10px;
+}
+
+.cards-area {
+    display: flex;
+    max-height: max-content;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid rgba(48, 48, 48, 0.103);
+    border-radius: 20px;
+    height: fit-content;
+    background-color: whitesmoke;
+}
+
+.cards-area > .vacation-card {
+    position:relative;
+    width: 400px;
+    height: 300px;
+    min-width: 299px;
+    height: max-content;
+    background-color: white;
+    border: 1px solid #dadada;
+    margin: 20px;
+    transition: 0.2s;
+    border-radius: 10px;
+    box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+
+.cards-area > .vacation-card > .destination {
+    position: absolute;
+    text-align: right;
+    right: 15px;
+    top: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.cards-area > .vacation-card > .destination > .geo{
+    width: 20px;
+}
+
+.cards-area > .vacation-card > .destination > .destination-span{
+    text-shadow: black 3px 1px 2px;
+    padding-bottom: 2px;
+    border-bottom: solid 1.4px rgb(177, 0, 0);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.cards-area > .vacation-card > .vacation-image {
+    display: block;
+    margin: 5px auto 25px auto;
+    width: 95%;
+    min-height: 200px;
+    max-height: 250px;
+    object-fit: cover;
+    box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.247);
+}
+
+.cards-area > .vacation-card > .card-header {
+    margin-top: 30px;
+}
+
+.cards-area > .vacation-card > .pInfo {
+    margin: 10px;
+}
+
+.cards-area > .vacation-card > .description {
+    margin: 0 25px 25px 25px;
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cards-area > .vacation-card > .icon-area {
+    margin-top: 15px;
+    position: relative;
+    height: fit-content;
+    position: relative;
+}
+
+.cards-area > .vacation-card > .icon-area > .follower-count {
+    line-height: 17px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.cards-area > .vacation-card > .icon-area > .spacer {
+    height: 55px;
+}
+
+.heart {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.heartActive {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+    background-position: -2800px 0;
+    cursor: pointer;
+}
+
+.cards-area > .vacation-card > .card-seperator {
+    display: flex;
+}
+
+.cards-area > .vacation-card > .card-seperator > .half {
+    width: 50%;
+}
+
+.edit-button {
+    position: absolute;
+    width: 32px;
+    top: 0;
+    left: 1px;
+    cursor: pointer;
+}
+
+.add-vacation-header {
+    font-weight: 400;
+}
+
+.add-vacation-img {
+    width: 110px;
+    margin: 10px 0 20px 0;
+    /* background-image: url(http://goo.gl/vyAs27); */
+}
+
+/* .remove-vacation-btn { */
+    /* position: absolute; */
+    /* left: 5px; */
+    /* margin: .25rem; */
+/* } */
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.seperator {
+    background-color: grey;
+    width: 1px;
+}
+
+/* ///////////// */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0c0c031; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333333a9; 
+}
+
+@media only screen and (max-width: 768px) {
+    .component-title {
+        margin: 0 auto 2px auto !important;
+    }
+
+    .form-inline > input {
+        text-align: center;
+    }
+
+    .favorites-btn {
+        display: block !important;
+        position: relative !important;
+        margin: 10px auto !important;
+        right: 0 !important;
+    }
+    .graph-btn {
+        display: block !important;
+        position: relative !important;
+        margin: 10px auto !important;
+        right: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main {
+        width: 100%;
+    }
+
+    .vacation-card {
+        width: 80% !important;
+    }
+}

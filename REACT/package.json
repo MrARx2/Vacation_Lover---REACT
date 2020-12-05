@@ -1,0 +1,67 @@
+{
+  "name": "react-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.59",
+    "@types/react": "^16.9.49",
+    "@types/react-bootstrap": "^0.32.24",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-transition-group": "^4.4.0",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-colorschemes": "^0.4.0",
+    "checkbox": "0.0.1",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "jquery": "^3.5.1",
+    "material-ui": "^0.20.2",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-typescript": "0.0.9",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-toastify": "^6.0.9",
+    "redux": "^4.0.5",
+    "socket.io-client": "^2.3.1",
+    "typescript": "^4.1.1-rc",
+    "uuid": "^8.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.1",
+    "@types/socket.io-client": "^1.4.34",
+    "@types/uuid": "^8.3.0"
+  }
+}

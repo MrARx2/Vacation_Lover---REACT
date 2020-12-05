@@ -1,0 +1,8 @@
+.page-not-found {
+  text-align: center;
+}
+.page-not-found > img{
+  margin: 0 auto;
+  width: 120vh;
+  height: 100vh;
+}

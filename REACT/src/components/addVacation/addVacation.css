@@ -1,0 +1,17 @@
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.upload-img {
+  width: 50px;
+  outline: none;
+}

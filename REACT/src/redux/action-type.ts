@@ -1,0 +1,19 @@
+export enum ActionType {
+    SetAllVacations,
+    SetUserLogin,
+    AddFavoriteVacation,
+    RemoveFavoriteIndex,
+    ChangeShowPage,
+    HandleEditModal,
+    HandleAddModal,
+    SaveEditedVacation,
+    AddNewVacation,
+    setlogout,
+    RemoveVacation,
+    HandleVacationsGraph,
+    FollowHasBeenSubmitted,
+    UnFollowHasBeenSubmitted,
+    SetSocket,
+    HandleBrokenToken,
+    HandleUserCameFromRegister
+}
